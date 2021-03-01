@@ -13,8 +13,8 @@ public class Day {
                 Utilities.round2DecimalPlaces(totalProfit / numOfCustomers));
     }
 
-    public static void addCustomers() {
-        numOfCustomers++;
+    public static void addCustomers(int customers) {
+        numOfCustomers += customers;
     }
 
     public static void addPrice(float price) {
